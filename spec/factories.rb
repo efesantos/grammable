@@ -14,11 +14,4 @@ FactoryGirl.define do
     association :user  
   end
 
-  #factory :comment do
-   # message "bla bla bla"
-    #association :user
-    #association :gram
-  #end
-
-
 end
