@@ -56,3 +56,9 @@ gem 'sass-rails', '>= 3.2'
 gem 'simple_form'
 
 gem 'devise'
+
+gem 'carrierwave'
+
+gem 'figaro'
+
+gem 'fog'
