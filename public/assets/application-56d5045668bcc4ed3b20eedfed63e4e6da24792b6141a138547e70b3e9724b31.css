@@ -9,6 +9,8 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+
+
  */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -8801,4 +8803,126 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 1, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+body {
+  background-color: #fafafa;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* line 6, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.top-nav {
+  background-color: white;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 70px;
+  padding-top: 15px;
+}
+
+/* line 15, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.brand {
+  color: #125688;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* line 21, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.top-nav .add a {
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+/* line 28, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.top-nav .add {
+  margin-top: 10px;
+}
+
+/* line 32, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.card {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+
+/* line 41, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.handle {
+  margin: 10px;
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 48, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* line 53, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.card.form {
+  padding: 20px;
+}
+
+/* line 57, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+label {
+  font-size: 18px;
+}
+
+/* line 61, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 66, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.my-btn {
+  background-color: #125688;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* line 75, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+/* line 80, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+/* line 85, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+/* line 91, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.comments {
+  padding: 20px;
+}
+
+/* line 95, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* line 100, /vagrant/src/grammable/app/assets/stylesheets/master.scss */
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
 }
