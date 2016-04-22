@@ -7,13 +7,14 @@ class CommentsController < ApplicationController
     
     return render_not_found if @gram.blank?
 
-    @gram.comments.create(comment_params)
+    @comment = @gram.comments.create(comment_params)
+
     redirect_to root_path
   end
 
   private
 
     def comment_params
-      params.require(:comment).permit(:message)
+      params.require(:comment).permit(:message).merge(user_id: current_user.id)
     end
 end

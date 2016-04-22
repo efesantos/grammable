@@ -3,6 +3,17 @@ require 'rails_helper'
 RSpec.describe CommentsController, type: :controller do
 
   describe "comments#create action" do
+=begin
+    it "should return http status code of not found if the user isn't found" do
+      user = FactoryGirl.create(:user)
+      sign_in user
+
+      gram = FactoryGirl.create(:gram)
+
+      post :create, gram_id: gram.id, user_id: "BLABLA",  comment: {message: "boom"}
+      expect(response).to have_http_status(:unprocessable_entity)
+    end
+=end
 
     it "should allow users to create comments on grams" do
       user = FactoryGirl.create(:user)
